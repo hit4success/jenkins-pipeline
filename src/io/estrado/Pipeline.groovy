@@ -3,6 +3,7 @@ package io.estrado;
 
 def kubectlTest() {
     // Test that kubectl can correctly communication with the Kubernetes API
+    //comment line
     println "checking kubectl connnectivity to the API"
     sh "kubectl get nodes"
 
